@@ -1,0 +1,615 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		432F890525BB225200546D5A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 432F890425BB225200546D5A /* AppDelegate.swift */; };
+		432F890725BB225200546D5A /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 432F890625BB225200546D5A /* SceneDelegate.swift */; };
+		432F890925BB225200546D5A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 432F890825BB225200546D5A /* ViewController.swift */; };
+		432F890C25BB225200546D5A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 432F890A25BB225200546D5A /* Main.storyboard */; };
+		432F890F25BB225200546D5A /* Koraa.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 432F890D25BB225200546D5A /* Koraa.xcdatamodeld */; };
+		432F891125BB225500546D5A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 432F891025BB225500546D5A /* Assets.xcassets */; };
+		432F891425BB225500546D5A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 432F891225BB225500546D5A /* LaunchScreen.storyboard */; };
+		432F891F25BB225600546D5A /* KoraaTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 432F891E25BB225600546D5A /* KoraaTests.swift */; };
+		432F892A25BB225600546D5A /* KoraaUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 432F892925BB225600546D5A /* KoraaUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		432F891B25BB225600546D5A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 432F88F925BB225200546D5A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 432F890025BB225200546D5A;
+			remoteInfo = Koraa;
+		};
+		432F892625BB225600546D5A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 432F88F925BB225200546D5A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 432F890025BB225200546D5A;
+			remoteInfo = Koraa;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		432F890125BB225200546D5A /* Koraa.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Koraa.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		432F890425BB225200546D5A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		432F890625BB225200546D5A /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		432F890825BB225200546D5A /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		432F890B25BB225200546D5A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		432F890E25BB225200546D5A /* Koraa.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Koraa.xcdatamodel; sourceTree = "<group>"; };
+		432F891025BB225500546D5A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		432F891325BB225500546D5A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		432F891525BB225500546D5A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		432F891A25BB225600546D5A /* KoraaTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = KoraaTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		432F891E25BB225600546D5A /* KoraaTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KoraaTests.swift; sourceTree = "<group>"; };
+		432F892025BB225600546D5A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		432F892525BB225600546D5A /* KoraaUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = KoraaUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		432F892925BB225600546D5A /* KoraaUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KoraaUITests.swift; sourceTree = "<group>"; };
+		432F892B25BB225600546D5A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		432F88FE25BB225200546D5A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		432F891725BB225600546D5A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		432F892225BB225600546D5A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		432F88F825BB225200546D5A = {
+			isa = PBXGroup;
+			children = (
+				432F890325BB225200546D5A /* Koraa */,
+				432F891D25BB225600546D5A /* KoraaTests */,
+				432F892825BB225600546D5A /* KoraaUITests */,
+				432F890225BB225200546D5A /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		432F890225BB225200546D5A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				432F890125BB225200546D5A /* Koraa.app */,
+				432F891A25BB225600546D5A /* KoraaTests.xctest */,
+				432F892525BB225600546D5A /* KoraaUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		432F890325BB225200546D5A /* Koraa */ = {
+			isa = PBXGroup;
+			children = (
+				432F890425BB225200546D5A /* AppDelegate.swift */,
+				432F890625BB225200546D5A /* SceneDelegate.swift */,
+				432F890825BB225200546D5A /* ViewController.swift */,
+				432F890A25BB225200546D5A /* Main.storyboard */,
+				432F891025BB225500546D5A /* Assets.xcassets */,
+				432F891225BB225500546D5A /* LaunchScreen.storyboard */,
+				432F891525BB225500546D5A /* Info.plist */,
+				432F890D25BB225200546D5A /* Koraa.xcdatamodeld */,
+			);
+			path = Koraa;
+			sourceTree = "<group>";
+		};
+		432F891D25BB225600546D5A /* KoraaTests */ = {
+			isa = PBXGroup;
+			children = (
+				432F891E25BB225600546D5A /* KoraaTests.swift */,
+				432F892025BB225600546D5A /* Info.plist */,
+			);
+			path = KoraaTests;
+			sourceTree = "<group>";
+		};
+		432F892825BB225600546D5A /* KoraaUITests */ = {
+			isa = PBXGroup;
+			children = (
+				432F892925BB225600546D5A /* KoraaUITests.swift */,
+				432F892B25BB225600546D5A /* Info.plist */,
+			);
+			path = KoraaUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		432F890025BB225200546D5A /* Koraa */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 432F892E25BB225600546D5A /* Build configuration list for PBXNativeTarget "Koraa" */;
+			buildPhases = (
+				432F88FD25BB225200546D5A /* Sources */,
+				432F88FE25BB225200546D5A /* Frameworks */,
+				432F88FF25BB225200546D5A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Koraa;
+			productName = Koraa;
+			productReference = 432F890125BB225200546D5A /* Koraa.app */;
+			productType = "com.apple.product-type.application";
+		};
+		432F891925BB225600546D5A /* KoraaTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 432F893125BB225600546D5A /* Build configuration list for PBXNativeTarget "KoraaTests" */;
+			buildPhases = (
+				432F891625BB225600546D5A /* Sources */,
+				432F891725BB225600546D5A /* Frameworks */,
+				432F891825BB225600546D5A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				432F891C25BB225600546D5A /* PBXTargetDependency */,
+			);
+			name = KoraaTests;
+			productName = KoraaTests;
+			productReference = 432F891A25BB225600546D5A /* KoraaTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		432F892425BB225600546D5A /* KoraaUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 432F893425BB225600546D5A /* Build configuration list for PBXNativeTarget "KoraaUITests" */;
+			buildPhases = (
+				432F892125BB225600546D5A /* Sources */,
+				432F892225BB225600546D5A /* Frameworks */,
+				432F892325BB225600546D5A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				432F892725BB225600546D5A /* PBXTargetDependency */,
+			);
+			name = KoraaUITests;
+			productName = KoraaUITests;
+			productReference = 432F892525BB225600546D5A /* KoraaUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		432F88F925BB225200546D5A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1230;
+				LastUpgradeCheck = 1230;
+				TargetAttributes = {
+					432F890025BB225200546D5A = {
+						CreatedOnToolsVersion = 12.3;
+					};
+					432F891925BB225600546D5A = {
+						CreatedOnToolsVersion = 12.3;
+						TestTargetID = 432F890025BB225200546D5A;
+					};
+					432F892425BB225600546D5A = {
+						CreatedOnToolsVersion = 12.3;
+						TestTargetID = 432F890025BB225200546D5A;
+					};
+				};
+			};
+			buildConfigurationList = 432F88FC25BB225200546D5A /* Build configuration list for PBXProject "Koraa" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 432F88F825BB225200546D5A;
+			productRefGroup = 432F890225BB225200546D5A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				432F890025BB225200546D5A /* Koraa */,
+				432F891925BB225600546D5A /* KoraaTests */,
+				432F892425BB225600546D5A /* KoraaUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		432F88FF25BB225200546D5A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				432F891425BB225500546D5A /* LaunchScreen.storyboard in Resources */,
+				432F891125BB225500546D5A /* Assets.xcassets in Resources */,
+				432F890C25BB225200546D5A /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		432F891825BB225600546D5A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		432F892325BB225600546D5A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		432F88FD25BB225200546D5A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				432F890F25BB225200546D5A /* Koraa.xcdatamodeld in Sources */,
+				432F890925BB225200546D5A /* ViewController.swift in Sources */,
+				432F890525BB225200546D5A /* AppDelegate.swift in Sources */,
+				432F890725BB225200546D5A /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		432F891625BB225600546D5A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				432F891F25BB225600546D5A /* KoraaTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		432F892125BB225600546D5A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				432F892A25BB225600546D5A /* KoraaUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		432F891C25BB225600546D5A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 432F890025BB225200546D5A /* Koraa */;
+			targetProxy = 432F891B25BB225600546D5A /* PBXContainerItemProxy */;
+		};
+		432F892725BB225600546D5A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 432F890025BB225200546D5A /* Koraa */;
+			targetProxy = 432F892625BB225600546D5A /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		432F890A25BB225200546D5A /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				432F890B25BB225200546D5A /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		432F891225BB225500546D5A /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				432F891325BB225500546D5A /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		432F892C25BB225600546D5A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.3;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		432F892D25BB225600546D5A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		432F892F25BB225600546D5A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = ZG7MDT96L3;
+				INFOPLIST_FILE = Koraa/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = mac.Yasser.iOSApp..Koraa;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		432F893025BB225600546D5A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = ZG7MDT96L3;
+				INFOPLIST_FILE = Koraa/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = mac.Yasser.iOSApp..Koraa;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		432F893225BB225600546D5A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = ZG7MDT96L3;
+				INFOPLIST_FILE = KoraaTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.3;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = mac.Yasser.iOSApp..KoraaTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Koraa.app/Koraa";
+			};
+			name = Debug;
+		};
+		432F893325BB225600546D5A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = ZG7MDT96L3;
+				INFOPLIST_FILE = KoraaTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.3;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = mac.Yasser.iOSApp..KoraaTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Koraa.app/Koraa";
+			};
+			name = Release;
+		};
+		432F893525BB225600546D5A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = ZG7MDT96L3;
+				INFOPLIST_FILE = KoraaUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = mac.Yasser.iOSApp..KoraaUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Koraa;
+			};
+			name = Debug;
+		};
+		432F893625BB225600546D5A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = ZG7MDT96L3;
+				INFOPLIST_FILE = KoraaUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = mac.Yasser.iOSApp..KoraaUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Koraa;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		432F88FC25BB225200546D5A /* Build configuration list for PBXProject "Koraa" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				432F892C25BB225600546D5A /* Debug */,
+				432F892D25BB225600546D5A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		432F892E25BB225600546D5A /* Build configuration list for PBXNativeTarget "Koraa" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				432F892F25BB225600546D5A /* Debug */,
+				432F893025BB225600546D5A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		432F893125BB225600546D5A /* Build configuration list for PBXNativeTarget "KoraaTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				432F893225BB225600546D5A /* Debug */,
+				432F893325BB225600546D5A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		432F893425BB225600546D5A /* Build configuration list for PBXNativeTarget "KoraaUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				432F893525BB225600546D5A /* Debug */,
+				432F893625BB225600546D5A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		432F890D25BB225200546D5A /* Koraa.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				432F890E25BB225200546D5A /* Koraa.xcdatamodel */,
+			);
+			currentVersion = 432F890E25BB225200546D5A /* Koraa.xcdatamodel */;
+			path = Koraa.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 432F88F925BB225200546D5A /* Project object */;
+}
