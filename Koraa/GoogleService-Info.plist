@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CLIENT_ID</key>
+	<string>15437329303-r22jfr2eiabjnev0kp87dqsq4q427roj.apps.googleusercontent.com</string>
+	<key>REVERSED_CLIENT_ID</key>
+	<string>com.googleusercontent.apps.15437329303-r22jfr2eiabjnev0kp87dqsq4q427roj</string>
+	<key>ANDROID_CLIENT_ID</key>
+	<string>15437329303-34prvadqatg0f4eqft794pmva6j27m4c.apps.googleusercontent.com</string>
+	<key>API_KEY</key>
+	<string>AIzaSyDgOf9ilVtCYej1CO9XV1nctdkDkqXUJHg</string>
+	<key>GCM_SENDER_ID</key>
+	<string>15437329303</string>
+	<key>PLIST_VERSION</key>
+	<string>1</string>
+	<key>BUNDLE_ID</key>
+	<string>mac.Yasser.iOSApp.Koraa</string>
+	<key>PROJECT_ID</key>
+	<string>actionyamalaab</string>
+	<key>STORAGE_BUCKET</key>
+	<string>actionyamalaab.appspot.com</string>
+	<key>IS_ADS_ENABLED</key>
+	<false></false>
+	<key>IS_ANALYTICS_ENABLED</key>
+	<false></false>
+	<key>IS_APPINVITE_ENABLED</key>
+	<true></true>
+	<key>IS_GCM_ENABLED</key>
+	<true></true>
+	<key>IS_SIGNIN_ENABLED</key>
+	<true></true>
+	<key>GOOGLE_APP_ID</key>
+	<string>1:15437329303:ios:7a1c904dc3a32fed7e8ad2</string>
+	<key>DATABASE_URL</key>
+	<string>https://actionyamalaab.firebaseio.com</string>
+</dict>
+</plist>

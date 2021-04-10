@@ -1,0 +1,6 @@
+framework module Pods_KoraaTests {
+  umbrella header "Pods-KoraaTests-umbrella.h"
+
+  export *
+  module * { export * }
+}
