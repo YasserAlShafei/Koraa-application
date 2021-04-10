@@ -1,0 +1,351 @@
+
+/* Class = "UILabel"; text = "صفحتي الشخصية"; ObjectID = "0R8-0s-HV0"; */
+"0R8-0s-HV0.text" = "صفحتي الشخصية";
+
+/* Class = "UILabel"; text = "@actionyamalab"; ObjectID = "0vr-KF-t5b"; */
+"0vr-KF-t5b.text" = "@actionyamalab";
+
+/* Class = "UILabel"; text = "البحث"; ObjectID = "1Rn-At-lLD"; */
+"1Rn-At-lLD.text" = "البحث";
+
+/* Class = "UILabel"; text = "الدفع : يتم دفع المبلغ المطلوب منك نقداً في الملعب قبل المباراة والتأكد من تسجيل حضورك من قبل صاحب الملعب لكي لا يترتب على ذلك أي غرامة مالية او ايقاف حسابك"; ObjectID = "2SW-np-XMH"; */
+"2SW-np-XMH.text" = "الدفع : يتم دفع المبلغ المطلوب منك نقداً في الملعب قبل المباراة والتأكد من تسجيل حضورك من قبل صاحب الملعب لكي لا يترتب على ذلك أي غرامة مالية او ايقاف حسابك";
+
+/* Class = "UILabel"; text = "حدد ميزانيتك"; ObjectID = "332-TH-fxc"; */
+"332-TH-fxc.text" = "حدد ميزانيتك";
+
+/* Class = "UIViewController"; title = "SignUpVC"; ObjectID = "3I0-v1-tUD"; */
+"3I0-v1-tUD.title" = "SignUpVC";
+
+/* Class = "UILabel"; text = "مشاركة"; ObjectID = "3kr-sv-DXR"; */
+"3kr-sv-DXR.text" = "مشاركة";
+
+/* Class = "UINavigationItem"; title = "سياسة التطبيق"; ObjectID = "3px-cG-RxK"; */
+"3px-cG-RxK.title" = "سياسة التطبيق";
+
+/* Class = "UILabel"; text = "المفضلة"; ObjectID = "5Bx-dr-820"; */
+"5Bx-dr-820.text" = "المفضلة";
+
+/* Class = "UIButton"; normalTitle = "Button"; ObjectID = "5CX-di-TS8"; */
+"5CX-di-TS8.normalTitle" = "Button";
+
+/* Class = "UILabel"; text = "تمارين : تستطيع الحجز بحسب الفئة العمرية المناسبة لك يوجد ثلاث فئات عمرية في التطبيق وهم :  "; ObjectID = "5sY-yR-nl9"; */
+"5sY-yR-nl9.text" = "تمارين : تستطيع الحجز بحسب الفئة العمرية المناسبة لك يوجد ثلاث فئات عمرية في التطبيق وهم :  ";
+
+/* Class = "UILabel"; text = "حجم الملعب"; ObjectID = "687-22-FAg"; */
+"687-22-FAg.text" = "حجم الملعب";
+
+/* Class = "UINavigationItem"; title = "البحث"; ObjectID = "6qx-OW-LYY"; */
+"6qx-OW-LYY.title" = "البحث";
+
+/* Class = "UILabel"; text = "actionyamalab@gmail.com"; ObjectID = "7UY-cV-qPs"; */
+"7UY-cV-qPs.text" = "actionyamalab@gmail.com";
+
+/* Class = "UIButton"; normalTitle = "send"; ObjectID = "7Uj-Gf-Wu4"; */
+"7Uj-Gf-Wu4.normalTitle" = "send";
+
+/* Class = "UILabel"; text = "name user"; ObjectID = "8Zr-7F-F2r"; */
+"8Zr-7F-F2r.text" = "name user";
+
+/* Class = "UIButton"; normalTitle = "تخطي"; ObjectID = "8jR-mB-xj6"; */
+"8jR-mB-xj6.normalTitle" = "تخطي";
+
+/* Class = "UIViewController"; title = "MassegesVC"; ObjectID = "9ZT-AV-NQj"; */
+"9ZT-AV-NQj.title" = "MassegesVC";
+
+/* Class = "UIViewController"; title = "MainVC"; ObjectID = "BYZ-38-t0r"; */
+"BYZ-38-t0r.title" = "MainVC";
+
+/* Class = "UILabel"; text = "المدة"; ObjectID = "C0p-EF-hGR"; */
+"C0p-EF-hGR.text" = "المدة";
+
+/* Class = "UILabel"; text = "تغير الموقع"; ObjectID = "Cca-dW-h1n"; */
+"Cca-dW-h1n.text" = "تغير الموقع";
+
+/* Class = "UILabel"; text = "المدة"; ObjectID = "D9a-b5-XHU"; */
+"D9a-b5-XHU.text" = "المدة";
+
+/* Class = "UILabel"; text = "إمكانية حجز ملعب في الوقت واليوم الذي تريده"; ObjectID = "Dez-Yr-BSd"; */
+"Dez-Yr-BSd.text" = "إمكانية حجز ملعب في الوقت واليوم الذي تريده";
+
+/* Class = "UILabel"; text = "المدينة"; ObjectID = "Do2-hb-Shp"; */
+"Do2-hb-Shp.text" = "المدينة";
+
+/* Class = "UILabel"; text = "العروض"; ObjectID = "E4k-KI-7po"; */
+"E4k-KI-7po.text" = "العروض";
+
+/* Class = "UINavigationItem"; title = "حجوزاتي"; ObjectID = "Egb-9d-Nmq"; */
+"Egb-9d-Nmq.title" = "حجوزاتي";
+
+/* Class = "UILabel"; text = "الرسائل"; ObjectID = "EpA-pL-aVk"; */
+"EpA-pL-aVk.text" = "الرسائل";
+
+/* Class = "UINavigationItem"; title = "الضبط"; ObjectID = "FD3-RT-5DZ"; */
+"FD3-RT-5DZ.title" = "الضبط";
+
+/* Class = "UILabel"; text = "لغة التطبيق"; ObjectID = "Fk9-0W-KdK"; */
+"Fk9-0W-KdK.text" = "لغة التطبيق";
+
+/* Class = "UIViewController"; title = "SplashVC"; ObjectID = "GF0-az-Wpi"; */
+"GF0-az-Wpi.title" = "SplashVC";
+
+/* Class = "UILabel"; text = "حجوزاتي"; ObjectID = "Gux-Kg-P1G"; */
+"Gux-Kg-P1G.text" = "حجوزاتي";
+
+/* Class = "UILabel"; text = "راسلنا"; ObjectID = "H1s-Qo-Uzt"; */
+"H1s-Qo-Uzt.text" = "راسلنا";
+
+/* Class = "UILabel"; text = "00966501940080"; ObjectID = "HQ4-kK-d0J"; */
+"HQ4-kK-d0J.text" = "00966501940080";
+
+/* Class = "UILabel"; text = "الاسم الأخير"; ObjectID = "Hgn-ct-Wzs"; */
+"Hgn-ct-Wzs.text" = "الاسم الأخير";
+
+/* Class = "UILabel"; text = "الحجز والالغاء : في حال قيامك بالحجز سيت التواصل معك على رقم جوالك او عن طريق المراسلة وكذالك سيم ارسال لك جميع بيانات الملعب تستطيع يا كابتن التواصل مع صاحب الملعب وتأكيد حجزك وفي حال رغبتك بإلغاء حجزك تذهب الى الملف الشخصي/ حجوزاتي/ الحجوزات القادمة و الغاء الحجز"; ObjectID = "HrU-NQ-bab"; */
+"HrU-NQ-bab.text" = "الحجز والالغاء : في حال قيامك بالحجز سيت التواصل معك على رقم جوالك او عن طريق المراسلة وكذالك سيم ارسال لك جميع بيانات الملعب تستطيع يا كابتن التواصل مع صاحب الملعب وتأكيد حجزك وفي حال رغبتك بإلغاء حجزك تذهب الى الملف الشخصي/ حجوزاتي/ الحجوزات القادمة و الغاء الحجز";
+
+/* Class = "UILabel"; text = "تواصل معنا يا كابتن"; ObjectID = "IEM-Ei-bNI"; */
+"IEM-Ei-bNI.text" = "تواصل معنا يا كابتن";
+
+/* Class = "UILabel"; text = "رقم جوالك"; ObjectID = "Ibd-0n-Muu"; */
+"Ibd-0n-Muu.text" = "رقم جوالك";
+
+/* Class = "UIButton"; normalTitle = "اطلب رمز التفعيل"; ObjectID = "IxN-Ne-4eZ"; */
+"IxN-Ne-4eZ.normalTitle" = "اطلب رمز التفعيل";
+
+/* Class = "UILabel"; text = "سياسة التطبيق"; ObjectID = "Jwy-Rz-1rc"; */
+"Jwy-Rz-1rc.text" = "سياسة التطبيق";
+
+/* Class = "UITabBarItem"; title = "السعر"; ObjectID = "NUe-se-QdB"; */
+"NUe-se-QdB.title" = "السعر";
+
+/* Class = "UIBarButtonItem"; title = "ملاعب"; ObjectID = "Np7-PA-oZ2"; */
+"Np7-PA-oZ2.title" = "ملاعب";
+
+/* Class = "UIViewController"; title = "DetailsMallebVC"; ObjectID = "ORf-LB-taW"; */
+"ORf-LB-taW.title" = "DetailsMallebVC";
+
+/* Class = "UILabel"; text = "الملف الشخصي"; ObjectID = "OcA-IR-X9w"; */
+"OcA-IR-X9w.text" = "الملف الشخصي";
+
+/* Class = "UIViewController"; title = "AboutAppVC"; ObjectID = "PvR-0m-eSk"; */
+"PvR-0m-eSk.title" = "AboutAppVC";
+
+/* Class = "UITabBarItem"; title = "الغرامات"; ObjectID = "RGJ-f8-o3H"; */
+"RGJ-f8-o3H.title" = "الغرامات";
+
+/* Class = "UILabel"; text = "يمكنك البحث عن الحجوزات بالتاريخ وحجم الملعب والسعر الذي يناسبك"; ObjectID = "RGR-y8-m3c"; */
+"RGR-y8-m3c.text" = "يمكنك البحث عن الحجوزات بالتاريخ وحجم الملعب والسعر الذي يناسبك";
+
+/* Class = "UILabel"; text = "كرة"; ObjectID = "RLo-dI-WgZ"; */
+"RLo-dI-WgZ.text" = "كرة";
+
+/* Class = "UILabel"; text = "حدد الفئة العمرية"; ObjectID = "SYy-mU-oS3"; */
+"SYy-mU-oS3.text" = "حدد الفئة العمرية";
+
+/* Class = "UIButton"; normalTitle = "   إبحث عن ملعبك..."; ObjectID = "Sbc-ZH-0Ez"; */
+"Sbc-ZH-0Ez.normalTitle" = "   إبحث عن ملعبك...";
+
+/* Class = "UILabel"; text = "أماكن إستحمام"; ObjectID = "T3o-EL-oYy"; */
+"T3o-EL-oYy.text" = "أماكن إستحمام";
+
+/* Class = "UILabel"; text = "اسم الملعب"; ObjectID = "ThK-Fv-6My"; */
+"ThK-Fv-6My.text" = "اسم الملعب";
+
+/* Class = "UILabel"; text = "حجم الملعب"; ObjectID = "UEu-Op-LmK"; */
+"UEu-Op-LmK.text" = "حجم الملعب";
+
+/* Class = "UIPickerView"; accessibilityLabel = "أحمد"; ObjectID = "UV8-g8-yJs"; */
+"UV8-g8-yJs.accessibilityLabel" = "أحمد";
+
+/* Class = "UILabel"; text = "id"; ObjectID = "VZu-fC-Gn4"; */
+"VZu-fC-Gn4.text" = "id";
+
+/* Class = "UILabel"; text = "مكافآتي"; ObjectID = "Wwf-Fv-7Jx"; */
+"Wwf-Fv-7Jx.text" = "مكافآتي";
+
+/* Class = "UILabel"; text = "البريد الالكتروني"; ObjectID = "Wxk-Yd-LHB"; */
+"Wxk-Yd-LHB.text" = "البريد الالكتروني";
+
+/* Class = "UILabel"; text = "0"; ObjectID = "X9u-OS-88x"; */
+"X9u-OS-88x.text" = "0";
+
+/* Class = "UILabel"; text = "name user"; ObjectID = "Xtj-Ne-1vX"; */
+"Xtj-Ne-1vX.text" = "name user";
+
+/* Class = "UILabel"; text = "العمر"; ObjectID = "YrF-lL-2kG"; */
+"YrF-lL-2kG.text" = "العمر";
+
+/* Class = "UILabel"; text = "الإشعارات"; ObjectID = "Yth-Eh-cT5"; */
+"Yth-Eh-cT5.text" = "الإشعارات";
+
+/* Class = "UILabel"; text = "خدمة الحجز الفردي وذلك لمن يريد اللعب ولا يملك أصدقاء او عدد كافي للعب كرة القدم مع ميزة تحديد الفئة العمرية التي تود اللعب معهم"; ObjectID = "ZMl-wL-lOB"; */
+"ZMl-wL-lOB.text" = "خدمة الحجز الفردي وذلك لمن يريد اللعب ولا يملك أصدقاء او عدد كافي للعب كرة القدم مع ميزة تحديد الفئة العمرية التي تود اللعب معهم";
+
+/* Class = "UILabel"; text = "الغاء حجزك : عن طريق الملف الشخصي / حجوزاتي / الحجوزات القادمة / الغاء الانضمام ."; ObjectID = "ZNr-Rx-frs"; */
+"ZNr-Rx-frs.text" = "الغاء حجزك : عن طريق الملف الشخصي / حجوزاتي / الحجوزات القادمة / الغاء الانضمام .";
+
+/* Class = "UILabel"; text = "موقع الملعب"; ObjectID = "ZwZ-39-BkV"; */
+"ZwZ-39-BkV.text" = "موقع الملعب";
+
+/* Class = "UIButton"; normalTitle = "البحث"; ObjectID = "Zza-d7-VDm"; */
+"Zza-d7-VDm.normalTitle" = "البحث";
+
+/* Class = "UILabel"; text = "أكشن يا ملعب"; ObjectID = "aN0-f2-ESv"; */
+"aN0-f2-ESv.text" = "أكشن يا ملعب";
+
+/* Class = "UITextField"; placeholder = "رقم الجوال +966"; ObjectID = "afL-hm-pT0"; */
+"afL-hm-pT0.placeholder" = "رقم الجوال +966";
+
+/* Class = "UINavigationItem"; title = "صفحتي الشخصية"; ObjectID = "cAn-OQ-wlp"; */
+"cAn-OQ-wlp.title" = "صفحتي الشخصية";
+
+/* Class = "UITabBarItem"; title = "العمر"; ObjectID = "cPj-r6-Mc0"; */
+"cPj-r6-Mc0.title" = "العمر";
+
+/* Class = "UIButton"; normalTitle = "تسجيل دخول"; ObjectID = "cSz-ob-ReC"; */
+"cSz-ob-ReC.normalTitle" = "تسجيل الدخول";
+
+/* Class = "UILabel"; text = "الضبط"; ObjectID = "cZc-fM-brT"; */
+"cZc-fM-brT.text" = "الضبط";
+
+/* Class = "UIBarButtonItem"; title = "Item"; ObjectID = "dkV-G6-msm"; */
+"dkV-G6-msm.title" = "Item";
+
+/* Class = "UILabel"; text = "الثالثة: 18 وما فوق"; ObjectID = "eRg-eh-5tH"; */
+"eRg-eh-5tH.text" = "الثالثة: 18 وما فوق";
+
+/* Class = "UITabBarItem"; title = "الحجوزات القادمة"; ObjectID = "ehm-HF-Kt0"; */
+"ehm-HF-Kt0.title" = "الحجوزات القادمة";
+
+/* Class = "UIBarButtonItem"; title = "Item"; ObjectID = "fzR-yX-6cT"; */
+"fzR-yX-6cT.title" = "Item";
+
+/* Class = "UILabel"; text = "كذالك تستطيع ان تقوم بإصطحاب معك مرافق او مرافقين للتدريب"; ObjectID = "fzS-Xi-Ly6"; */
+"fzS-Xi-Ly6.text" = "كذالك تستطيع ان تقوم بإصطحاب معك مرافق او مرافقين للتدريب";
+
+/* Class = "UILabel"; text = "تطبيق لحجز ملاعب كرة القدم حيث يوفر لك عناء الذهاب والبحث عن ملعب واستهلاكك لوقتك ووقود مركبتك ما عليك الا التسجيل والحجز وأكشنها"; ObjectID = "gWr-su-xpT"; */
+"gWr-su-xpT.text" = "تطبيق لحجز ملاعب كرة القدم حيث يوفر لك عناء الذهاب والبحث عن ملعب واستهلاكك لوقتك ووقود مركبتك ما عليك الا التسجيل والحجز وأكشنها";
+
+/* Class = "UITabBarItem"; title = "حجم الطلب"; ObjectID = "gja-ce-Ai4"; */
+"gja-ce-Ai4.title" = "حجم الطلب";
+
+/* Class = "UILabel"; text = "عن التطبيق"; ObjectID = "hKt-wj-ebb"; */
+"hKt-wj-ebb.text" = "عن التطبيق";
+
+/* Class = "UILabel"; text = "سياسة التطبيق"; ObjectID = "hOP-tu-kQ3"; */
+"hOP-tu-kQ3.text" = "سياسة التطبيق";
+
+/* Class = "UILabel"; text = "أضف للمفضلة"; ObjectID = "ho8-Gn-snh"; */
+"ho8-Gn-snh.text" = "أضف للمفضلة";
+
+/* Class = "UILabel"; text = "id"; ObjectID = "i2m-Ig-8s9"; */
+"i2m-Ig-8s9.text" = "id";
+
+/* Class = "UITextField"; placeholder = "  Massege"; ObjectID = "i7a-4F-AwK"; */
+"i7a-4F-AwK.placeholder" = "  Massege";
+
+/* Class = "UIButton"; normalTitle = "Home"; ObjectID = "iB6-k3-VTw"; */
+"iB6-k3-VTw.normalTitle" = "Home";
+
+/* Class = "UITabBarItem"; title = "المنطقة"; ObjectID = "ic4-pL-6hh"; */
+"ic4-pL-6hh.title" = "المنطقة";
+
+/* Class = "UILabel"; text = "التعديل: يحق لتطبيق اكشن يا ملعب في اي وقت تغيير هذه الشروط والاحكام واشعاركم بذلك عن طريق الرسائل او التنبيهات"; ObjectID = "j8Q-0S-kA9"; */
+"j8Q-0S-kA9.text" = "التعديل: يحق لتطبيق اكشن يا ملعب في اي وقت تغيير هذه الشروط والاحكام واشعاركم بذلك عن طريق الرسائل او التنبيهات";
+
+/* Class = "UILabel"; text = "الأولى: 8 الى 12 سنة"; ObjectID = "jIz-Ts-hWo"; */
+"jIz-Ts-hWo.text" = "الأولى: 8 الى 12 سنة";
+
+/* Class = "UILabel"; text = "اختر الوقت والتاريخ"; ObjectID = "jcj-uP-Yol"; */
+"jcj-uP-Yol.text" = "اختر الوقت والتاريخ";
+
+/* Class = "UILabel"; text = "0 ر.س"; ObjectID = "jzD-Dk-tN4"; */
+"jzD-Dk-tN4.text" = "0 ر.س";
+
+/* Class = "UITextField"; placeholder = "  Email"; ObjectID = "k2A-Q4-YoR"; */
+"k2A-Q4-YoR.placeholder" = "  Email";
+
+/* Class = "UILabel"; text = "الغرامات : عدم حضورك بعد تأكيد حجزك يعرضك لدفع كامل المبلغ أو إيقاف حسابك"; ObjectID = "kIV-Yw-Tax"; */
+"kIV-Yw-Tax.text" = "الغرامات : عدم حضورك بعد تأكيد حجزك يعرضك لدفع كامل المبلغ أو إيقاف حسابك";
+
+/* Class = "UILabel"; text = "الخصائص"; ObjectID = "mGy-0i-LKR"; */
+"mGy-0i-LKR.text" = "الخصائص";
+
+/* Class = "UILabel"; text = "الثانية: 13 الى 17 سنة"; ObjectID = "mkx-kd-zQM"; */
+"mkx-kd-zQM.text" = "الثانية: 13 الى 17 سنة";
+
+/* Class = "UINavigationItem"; title = "صفحتي الشخصية"; ObjectID = "nQQ-ul-e0q"; */
+"nQQ-ul-e0q.title" = "صفحتي الشخصية";
+
+/* Class = "UILabel"; text = "الاسم الأول"; ObjectID = "oey-Qm-aOP"; */
+"oey-Qm-aOP.text" = "الاسم الأول";
+
+/* Class = "UILabel"; text = "إمكانية البحث وإيجاد الملاعب الأقرب إليك بحسب موقعك الجغرافي"; ObjectID = "ooG-3i-ob2"; */
+"ooG-3i-ob2.text" = "إمكانية البحث وإيجاد الملاعب الأقرب إليك بحسب موقعك الجغرافي";
+
+/* Class = "UIViewController"; title = "SignInVC"; ObjectID = "p2R-kT-8I2"; */
+"p2R-kT-8I2.title" = "SignInVC";
+
+/* Class = "UILabel"; text = "id"; ObjectID = "pIn-uD-cwj"; */
+"pIn-uD-cwj.text" = "id";
+
+/* Class = "UILabel"; text = "name user"; ObjectID = "poW-YG-xaz"; */
+"poW-YG-xaz.text" = "name user";
+
+/* Class = "UIViewController"; title = "policysVC"; ObjectID = "qRf-Wq-91M"; */
+"qRf-Wq-91M.title" = "policysVC";
+
+/* Class = "UILabel"; text = "أكشن يا ملعب"; ObjectID = "quS-g7-rkI"; */
+"quS-g7-rkI.text" = "أكشن يا ملعب";
+
+/* Class = "UILabel"; text = "تسجيل خروج"; ObjectID = "rJz-m1-2Ja"; */
+"rJz-m1-2Ja.text" = "تسجيل خروج";
+
+/* Class = "UILabel"; text = "دورات مياه"; ObjectID = "rhW-TQ-CwP"; */
+"rhW-TQ-CwP.text" = "دورات مياه";
+
+/* Class = "UILabel"; text = "سعر الحجز ر.س"; ObjectID = "rlC-8J-M94"; */
+"rlC-8J-M94.text" = "سعر الحجز ر.س";
+
+/* Class = "UIButton"; normalTitle = "English"; ObjectID = "sel-aE-gmk"; */
+"sel-aE-gmk.normalTitle" = "English";
+
+/* Class = "UINavigationItem"; title = "سياسة التطبيق"; ObjectID = "sth-VO-ogA"; */
+"sth-VO-ogA.title" = "سياسة التطبيق";
+
+/* Class = "UILabel"; text = "1000 ر.س"; ObjectID = "svh-i9-x0p"; */
+"svh-i9-x0p.text" = "1000 ر.س";
+
+/* Class = "UILabel"; text = "الإشعارات"; ObjectID = "sxi-w4-GZ2"; */
+"sxi-w4-GZ2.text" = "الإشعارات";
+
+/* Class = "UILabel"; text = "id"; ObjectID = "tf4-F9-JsG"; */
+"tf4-F9-JsG.text" = "id";
+
+/* Class = "UILabel"; text = "أرضية عشبية"; ObjectID = "u4k-qB-Gmw"; */
+"u4k-qB-Gmw.text" = "أرضية عشبية";
+
+/* Class = "UILabel"; text = "name user"; ObjectID = "vnD-pO-seL"; */
+"vnD-pO-seL.text" = "name user";
+
+/* Class = "UILabel"; text = "التصميم والتطوير بواسطة منصة ابعاد"; ObjectID = "wXa-7s-0I5"; */
+"wXa-7s-0I5.text" = "التصميم والتطوير بواسطة منصة ابعاد";
+
+/* Class = "UILabel"; text = "سهولة استخدام التطبيق لحجزك ولمتابعة حجوزاتك السابقة والقادمة"; ObjectID = "xEw-IQ-gZ0"; */
+"xEw-IQ-gZ0.text" = "سهولة استخدام التطبيق لحجزك ولمتابعة حجوزاتك السابقة والقادمة";
+
+/* Class = "UIBarButtonItem"; title = "تمارين"; ObjectID = "yN9-7x-aIc"; */
+"yN9-7x-aIc.title" = "تمارين";
+
+/* Class = "UINavigationItem"; title = "مكافآتي"; ObjectID = "yd4-0s-1Pf"; */
+"yd4-0s-1Pf.title" = "مكافآتي";
+
+/* Class = "UITabBarItem"; title = "الحجوزات السابقة"; ObjectID = "ysy-9G-dqt"; */
+"ysy-9G-dqt.title" = "الحجوزات السابقة";
+
+/* Class = "UILabel"; text = "ماء للشرب"; ObjectID = "ziu-4k-UVf"; */
+"ziu-4k-UVf.text" = "ماء للشرب";
+
+/* Class = "UIButton"; normalTitle = "ما عندك حساب؟ بسيطة سجل الآن"; ObjectID = "zrn-gl-Ncd"; */
+"zrn-gl-Ncd.normalTitle" = "ما عندك حساب؟ بسيطة سجل الآن";

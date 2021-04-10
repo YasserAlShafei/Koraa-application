@@ -7,15 +7,44 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0E4D560A26D7F050E9C92651 /* Pods_KoraaTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8EFB95F23C6ABA3C5641BABE /* Pods_KoraaTests.framework */; };
+		255DCDF22036126EE339578D /* Pods_KoraaUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 519BC8F2B7A019D6679CFC10 /* Pods_KoraaUITests.framework */; };
+		2D732D329828ED2EAAB6667A /* Pods_Koraa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A059C2A17412FD244D58DAE0 /* Pods_Koraa.framework */; };
+		430BECC125D3FA1400355F3C /* ProfileVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 430BECC025D3FA1400355F3C /* ProfileVC.swift */; };
+		43148ACA25C3839200725B1F /* SearchVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43148AC925C3839200725B1F /* SearchVC.swift */; };
+		43148AD125C3994600725B1F /* MessageVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43148ACF25C3994600725B1F /* MessageVC.swift */; };
+		43148AD225C3994600725B1F /* MessageVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 43148AD025C3994600725B1F /* MessageVC.xib */; };
+		43148ADC25C399A300725B1F /* NotificationVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43148ADA25C399A300725B1F /* NotificationVC.swift */; };
+		43148ADD25C399A300725B1F /* NotificationVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 43148ADB25C399A300725B1F /* NotificationVC.xib */; };
+		43148AE525C399B800725B1F /* NotificationsVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43148AE425C399B800725B1F /* NotificationsVC.swift */; };
+		43148AEA25C399F600725B1F /* MessagesVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43148AE925C399F600725B1F /* MessagesVC.swift */; };
 		432F890525BB225200546D5A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 432F890425BB225200546D5A /* AppDelegate.swift */; };
 		432F890725BB225200546D5A /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 432F890625BB225200546D5A /* SceneDelegate.swift */; };
-		432F890925BB225200546D5A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 432F890825BB225200546D5A /* ViewController.swift */; };
+		432F890925BB225200546D5A /* MainVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 432F890825BB225200546D5A /* MainVC.swift */; };
 		432F890C25BB225200546D5A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 432F890A25BB225200546D5A /* Main.storyboard */; };
 		432F890F25BB225200546D5A /* Koraa.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 432F890D25BB225200546D5A /* Koraa.xcdatamodeld */; };
 		432F891125BB225500546D5A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 432F891025BB225500546D5A /* Assets.xcassets */; };
 		432F891425BB225500546D5A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 432F891225BB225500546D5A /* LaunchScreen.storyboard */; };
 		432F891F25BB225600546D5A /* KoraaTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 432F891E25BB225600546D5A /* KoraaTests.swift */; };
 		432F892A25BB225600546D5A /* KoraaUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 432F892925BB225600546D5A /* KoraaUITests.swift */; };
+		4332221C25C209D500C09251 /* EditProfileVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4332221B25C209D500C09251 /* EditProfileVC.swift */; };
+		433FC80725DA99EF00E8768B /* SignInVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 433FC80625DA99EF00E8768B /* SignInVC.swift */; };
+		433FC80C25DA9A0800E8768B /* SignUpVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 433FC80B25DA9A0800E8768B /* SignUpVC.swift */; };
+		433FC82825DAA9BE00E8768B /* OvalView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 433FC82725DAA9BE00E8768B /* OvalView.swift */; };
+		433FC84525DAAD2800E8768B /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 433FC84425DAAD2800E8768B /* GoogleService-Info.plist */; };
+		433FC86825DACAB200E8768B /* SplashVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 433FC86725DACAB200E8768B /* SplashVC.swift */; };
+		433FC89225DAE1E800E8768B /* splash.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 433FC89125DAE1E700E8768B /* splash.mp4 */; };
+		433FC8AC25DAE67B00E8768B /* splash.gif in Resources */ = {isa = PBXBuildFile; fileRef = 433FC8AB25DAE67B00E8768B /* splash.gif */; };
+		4347972C25BCBD31004B837A /* GradientView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4347972B25BCBD31004B837A /* GradientView.swift */; };
+		4347973725BCBD66004B837A /* TextFeild.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4347973625BCBD66004B837A /* TextFeild.swift */; };
+		43481F9125C2E80C00761EBA /* MyReservationsVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43481F9025C2E80C00761EBA /* MyReservationsVC.swift */; };
+		434AA91C25C809730017F566 /* EmailusVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 434AA91B25C809730017F566 /* EmailusVC.swift */; };
+		434B521B25DC311C003A9E4A /* ExternalAccessory.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 434B521A25DC311C003A9E4A /* ExternalAccessory.framework */; };
+		435A3DC625BB7529001EFCBF /* MalebVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 435A3DC425BB7529001EFCBF /* MalebVC.swift */; };
+		435A3DC725BB7529001EFCBF /* MalebVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 435A3DC525BB7529001EFCBF /* MalebVC.xib */; };
+		435A3DCD25BB7679001EFCBF /* Maleb.swift in Sources */ = {isa = PBXBuildFile; fileRef = 435A3DCC25BB7679001EFCBF /* Maleb.swift */; };
+		437C8AB625DD9C2A002A1C82 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 437C8AB825DD9C2A002A1C82 /* Localizable.strings */; };
+		437C8ABE25DDA05D002A1C82 /* LocalizationSystem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 437C8ABD25DDA05D002A1C82 /* LocalizationSystem.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,10 +65,20 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		1C4E42263AD029BA7292CA05 /* Pods-KoraaTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KoraaTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-KoraaTests/Pods-KoraaTests.release.xcconfig"; sourceTree = "<group>"; };
+		37BDE891D27CC109A0BFE85D /* Pods-Koraa.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Koraa.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Koraa/Pods-Koraa.debug.xcconfig"; sourceTree = "<group>"; };
+		430BECC025D3FA1400355F3C /* ProfileVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileVC.swift; sourceTree = "<group>"; };
+		43148AC925C3839200725B1F /* SearchVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchVC.swift; sourceTree = "<group>"; };
+		43148ACF25C3994600725B1F /* MessageVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MessageVC.swift; sourceTree = "<group>"; };
+		43148AD025C3994600725B1F /* MessageVC.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MessageVC.xib; sourceTree = "<group>"; };
+		43148ADA25C399A300725B1F /* NotificationVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationVC.swift; sourceTree = "<group>"; };
+		43148ADB25C399A300725B1F /* NotificationVC.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = NotificationVC.xib; sourceTree = "<group>"; };
+		43148AE425C399B800725B1F /* NotificationsVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationsVC.swift; sourceTree = "<group>"; };
+		43148AE925C399F600725B1F /* MessagesVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MessagesVC.swift; sourceTree = "<group>"; };
 		432F890125BB225200546D5A /* Koraa.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Koraa.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		432F890425BB225200546D5A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		432F890625BB225200546D5A /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		432F890825BB225200546D5A /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		432F890825BB225200546D5A /* MainVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainVC.swift; sourceTree = "<group>"; };
 		432F890B25BB225200546D5A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		432F890E25BB225200546D5A /* Koraa.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Koraa.xcdatamodel; sourceTree = "<group>"; };
 		432F891025BB225500546D5A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -51,6 +90,35 @@
 		432F892525BB225600546D5A /* KoraaUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = KoraaUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		432F892925BB225600546D5A /* KoraaUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KoraaUITests.swift; sourceTree = "<group>"; };
 		432F892B25BB225600546D5A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4332221B25C209D500C09251 /* EditProfileVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditProfileVC.swift; sourceTree = "<group>"; };
+		433FC80625DA99EF00E8768B /* SignInVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignInVC.swift; sourceTree = "<group>"; };
+		433FC80B25DA9A0800E8768B /* SignUpVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpVC.swift; sourceTree = "<group>"; };
+		433FC82725DAA9BE00E8768B /* OvalView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OvalView.swift; sourceTree = "<group>"; };
+		433FC84425DAAD2800E8768B /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		433FC86725DACAB200E8768B /* SplashVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SplashVC.swift; sourceTree = "<group>"; };
+		433FC89125DAE1E700E8768B /* splash.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = splash.mp4; sourceTree = "<group>"; };
+		433FC8AB25DAE67B00E8768B /* splash.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = splash.gif; sourceTree = "<group>"; };
+		4347972B25BCBD31004B837A /* GradientView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GradientView.swift; sourceTree = "<group>"; };
+		4347973625BCBD66004B837A /* TextFeild.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TextFeild.swift; sourceTree = "<group>"; };
+		43481F9025C2E80C00761EBA /* MyReservationsVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyReservationsVC.swift; sourceTree = "<group>"; };
+		434AA91B25C809730017F566 /* EmailusVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmailusVC.swift; sourceTree = "<group>"; };
+		434B521925DC311B003A9E4A /* KoraaDebug.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = KoraaDebug.entitlements; sourceTree = "<group>"; };
+		434B521A25DC311C003A9E4A /* ExternalAccessory.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ExternalAccessory.framework; path = System/Library/Frameworks/ExternalAccessory.framework; sourceTree = SDKROOT; };
+		435A3DC425BB7529001EFCBF /* MalebVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MalebVC.swift; sourceTree = "<group>"; };
+		435A3DC525BB7529001EFCBF /* MalebVC.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MalebVC.xib; sourceTree = "<group>"; };
+		435A3DCC25BB7679001EFCBF /* Maleb.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Maleb.swift; sourceTree = "<group>"; };
+		437C8AA925DD9B45002A1C82 /* ar */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ar; path = ar.lproj/Main.strings; sourceTree = "<group>"; };
+		437C8AAD25DD9B46002A1C82 /* ar */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ar; path = ar.lproj/LaunchScreen.strings; sourceTree = "<group>"; };
+		437C8AB725DD9C2A002A1C82 /* ar */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ar; path = ar.lproj/Localizable.strings; sourceTree = "<group>"; };
+		437C8AB925DD9C51002A1C82 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Localizable.strings; sourceTree = "<group>"; };
+		437C8ABD25DDA05D002A1C82 /* LocalizationSystem.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LocalizationSystem.swift; sourceTree = "<group>"; };
+		519BC8F2B7A019D6679CFC10 /* Pods_KoraaUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_KoraaUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		5D20D4989B4BB2298CA84D99 /* Pods-KoraaUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KoraaUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-KoraaUITests/Pods-KoraaUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		5F51C95FEA5E4C96A49E9D73 /* Pods-KoraaTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KoraaTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-KoraaTests/Pods-KoraaTests.debug.xcconfig"; sourceTree = "<group>"; };
+		735BA11E1157568F2782271C /* Pods-KoraaUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KoraaUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-KoraaUITests/Pods-KoraaUITests.release.xcconfig"; sourceTree = "<group>"; };
+		8EFB95F23C6ABA3C5641BABE /* Pods_KoraaTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_KoraaTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		A059C2A17412FD244D58DAE0 /* Pods_Koraa.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Koraa.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		A162D8CC93FCE6B171247B0A /* Pods-Koraa.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Koraa.release.xcconfig"; path = "Pods/Target Support Files/Pods-Koraa/Pods-Koraa.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +126,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				434B521B25DC311C003A9E4A /* ExternalAccessory.framework in Frameworks */,
+				2D732D329828ED2EAAB6667A /* Pods_Koraa.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -65,6 +135,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0E4D560A26D7F050E9C92651 /* Pods_KoraaTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -72,12 +143,31 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				255DCDF22036126EE339578D /* Pods_KoraaUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		43148ACE25C398D300725B1F /* XipMassge */ = {
+			isa = PBXGroup;
+			children = (
+				43148ACF25C3994600725B1F /* MessageVC.swift */,
+				43148AD025C3994600725B1F /* MessageVC.xib */,
+			);
+			path = XipMassge;
+			sourceTree = "<group>";
+		};
+		43148AD925C3996B00725B1F /* XipNotification */ = {
+			isa = PBXGroup;
+			children = (
+				43148ADA25C399A300725B1F /* NotificationVC.swift */,
+				43148ADB25C399A300725B1F /* NotificationVC.xib */,
+			);
+			path = XipNotification;
+			sourceTree = "<group>";
+		};
 		432F88F825BB225200546D5A = {
 			isa = PBXGroup;
 			children = (
@@ -85,6 +175,8 @@
 				432F891D25BB225600546D5A /* KoraaTests */,
 				432F892825BB225600546D5A /* KoraaUITests */,
 				432F890225BB225200546D5A /* Products */,
+				99F56C477229F499DBF6DEDF /* Pods */,
+				F77A72D92FC475B20FA380EA /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -101,11 +193,19 @@
 		432F890325BB225200546D5A /* Koraa */ = {
 			isa = PBXGroup;
 			children = (
+				434B521925DC311B003A9E4A /* KoraaDebug.entitlements */,
+				433FC8AB25DAE67B00E8768B /* splash.gif */,
+				433FC89125DAE1E700E8768B /* splash.mp4 */,
+				433FC84425DAAD2800E8768B /* GoogleService-Info.plist */,
+				4347972025BCBD22004B837A /* View */,
+				435A3DB525BB70B1001EFCBF /* Model */,
+				435A3DB125BB7088001EFCBF /* Controller */,
 				432F890425BB225200546D5A /* AppDelegate.swift */,
 				432F890625BB225200546D5A /* SceneDelegate.swift */,
-				432F890825BB225200546D5A /* ViewController.swift */,
-				432F890A25BB225200546D5A /* Main.storyboard */,
+				437C8ABD25DDA05D002A1C82 /* LocalizationSystem.swift */,
 				432F891025BB225500546D5A /* Assets.xcassets */,
+				437C8AB825DD9C2A002A1C82 /* Localizable.strings */,
+				432F890A25BB225200546D5A /* Main.storyboard */,
 				432F891225BB225500546D5A /* LaunchScreen.storyboard */,
 				432F891525BB225500546D5A /* Info.plist */,
 				432F890D25BB225200546D5A /* Koraa.xcdatamodeld */,
@@ -131,6 +231,78 @@
 			path = KoraaUITests;
 			sourceTree = "<group>";
 		};
+		4347972025BCBD22004B837A /* View */ = {
+			isa = PBXGroup;
+			children = (
+				433FC82725DAA9BE00E8768B /* OvalView.swift */,
+				4347973625BCBD66004B837A /* TextFeild.swift */,
+				4347972B25BCBD31004B837A /* GradientView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		435A3DB125BB7088001EFCBF /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				43148AD925C3996B00725B1F /* XipNotification */,
+				43148ACE25C398D300725B1F /* XipMassge */,
+				435A3DBB25BB7155001EFCBF /* XipMalleb */,
+				432F890825BB225200546D5A /* MainVC.swift */,
+				430BECC025D3FA1400355F3C /* ProfileVC.swift */,
+				4332221B25C209D500C09251 /* EditProfileVC.swift */,
+				43481F9025C2E80C00761EBA /* MyReservationsVC.swift */,
+				43148AC925C3839200725B1F /* SearchVC.swift */,
+				43148AE425C399B800725B1F /* NotificationsVC.swift */,
+				43148AE925C399F600725B1F /* MessagesVC.swift */,
+				434AA91B25C809730017F566 /* EmailusVC.swift */,
+				433FC80625DA99EF00E8768B /* SignInVC.swift */,
+				433FC80B25DA9A0800E8768B /* SignUpVC.swift */,
+				433FC86725DACAB200E8768B /* SplashVC.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		435A3DB525BB70B1001EFCBF /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				435A3DCC25BB7679001EFCBF /* Maleb.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		435A3DBB25BB7155001EFCBF /* XipMalleb */ = {
+			isa = PBXGroup;
+			children = (
+				435A3DC425BB7529001EFCBF /* MalebVC.swift */,
+				435A3DC525BB7529001EFCBF /* MalebVC.xib */,
+			);
+			path = XipMalleb;
+			sourceTree = "<group>";
+		};
+		99F56C477229F499DBF6DEDF /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				37BDE891D27CC109A0BFE85D /* Pods-Koraa.debug.xcconfig */,
+				A162D8CC93FCE6B171247B0A /* Pods-Koraa.release.xcconfig */,
+				5F51C95FEA5E4C96A49E9D73 /* Pods-KoraaTests.debug.xcconfig */,
+				1C4E42263AD029BA7292CA05 /* Pods-KoraaTests.release.xcconfig */,
+				5D20D4989B4BB2298CA84D99 /* Pods-KoraaUITests.debug.xcconfig */,
+				735BA11E1157568F2782271C /* Pods-KoraaUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		F77A72D92FC475B20FA380EA /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				434B521A25DC311C003A9E4A /* ExternalAccessory.framework */,
+				A059C2A17412FD244D58DAE0 /* Pods_Koraa.framework */,
+				8EFB95F23C6ABA3C5641BABE /* Pods_KoraaTests.framework */,
+				519BC8F2B7A019D6679CFC10 /* Pods_KoraaUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -138,9 +310,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 432F892E25BB225600546D5A /* Build configuration list for PBXNativeTarget "Koraa" */;
 			buildPhases = (
+				CC8A4E775AEEF31495A645D4 /* [CP] Check Pods Manifest.lock */,
 				432F88FD25BB225200546D5A /* Sources */,
 				432F88FE25BB225200546D5A /* Frameworks */,
 				432F88FF25BB225200546D5A /* Resources */,
+				D41F16861DBC63AC0F03E0B3 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -155,6 +329,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 432F893125BB225600546D5A /* Build configuration list for PBXNativeTarget "KoraaTests" */;
 			buildPhases = (
+				0501B99976206BC933B4C2D3 /* [CP] Check Pods Manifest.lock */,
 				432F891625BB225600546D5A /* Sources */,
 				432F891725BB225600546D5A /* Frameworks */,
 				432F891825BB225600546D5A /* Resources */,
@@ -173,6 +348,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 432F893425BB225600546D5A /* Build configuration list for PBXNativeTarget "KoraaUITests" */;
 			buildPhases = (
+				83B28E512FD8B4A1194FAB6F /* [CP] Check Pods Manifest.lock */,
 				432F892125BB225600546D5A /* Sources */,
 				432F892225BB225600546D5A /* Frameworks */,
 				432F892325BB225600546D5A /* Resources */,
@@ -216,6 +392,7 @@
 			knownRegions = (
 				en,
 				Base,
+				ar,
 			);
 			mainGroup = 432F88F825BB225200546D5A;
 			productRefGroup = 432F890225BB225200546D5A /* Products */;
@@ -234,9 +411,16 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				43148AD225C3994600725B1F /* MessageVC.xib in Resources */,
+				433FC8AC25DAE67B00E8768B /* splash.gif in Resources */,
+				433FC89225DAE1E800E8768B /* splash.mp4 in Resources */,
 				432F891425BB225500546D5A /* LaunchScreen.storyboard in Resources */,
 				432F891125BB225500546D5A /* Assets.xcassets in Resources */,
+				437C8AB625DD9C2A002A1C82 /* Localizable.strings in Resources */,
 				432F890C25BB225200546D5A /* Main.storyboard in Resources */,
+				435A3DC725BB7529001EFCBF /* MalebVC.xib in Resources */,
+				43148ADD25C399A300725B1F /* NotificationVC.xib in Resources */,
+				433FC84525DAAD2800E8768B /* GoogleService-Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -256,15 +440,128 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		0501B99976206BC933B4C2D3 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-KoraaTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		83B28E512FD8B4A1194FAB6F /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-KoraaUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		CC8A4E775AEEF31495A645D4 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Koraa-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D41F16861DBC63AC0F03E0B3 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-Koraa/Pods-Koraa-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/FirebaseAuth/FirebaseAuth.framework",
+				"${BUILT_PRODUCTS_DIR}/FirebaseCore/FirebaseCore.framework",
+				"${BUILT_PRODUCTS_DIR}/FirebaseCoreDiagnostics/FirebaseCoreDiagnostics.framework",
+				"${BUILT_PRODUCTS_DIR}/FirebaseInstallations/FirebaseInstallations.framework",
+				"${BUILT_PRODUCTS_DIR}/FirebaseInstanceID/FirebaseInstanceID.framework",
+				"${BUILT_PRODUCTS_DIR}/FirebaseMessaging/FirebaseMessaging.framework",
+				"${BUILT_PRODUCTS_DIR}/GTMSessionFetcher/GTMSessionFetcher.framework",
+				"${BUILT_PRODUCTS_DIR}/GoogleDataTransport/GoogleDataTransport.framework",
+				"${BUILT_PRODUCTS_DIR}/GoogleUtilities/GoogleUtilities.framework",
+				"${BUILT_PRODUCTS_DIR}/PromisesObjC/FBLPromises.framework",
+				"${BUILT_PRODUCTS_DIR}/nanopb/nanopb.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/FirebaseAuth.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/FirebaseCore.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/FirebaseCoreDiagnostics.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/FirebaseInstallations.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/FirebaseInstanceID.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/FirebaseMessaging.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GTMSessionFetcher.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GoogleDataTransport.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GoogleUtilities.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/FBLPromises.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/nanopb.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Koraa/Pods-Koraa-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		432F88FD25BB225200546D5A /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				43148ACA25C3839200725B1F /* SearchVC.swift in Sources */,
+				43148AE525C399B800725B1F /* NotificationsVC.swift in Sources */,
+				4332221C25C209D500C09251 /* EditProfileVC.swift in Sources */,
 				432F890F25BB225200546D5A /* Koraa.xcdatamodeld in Sources */,
-				432F890925BB225200546D5A /* ViewController.swift in Sources */,
+				434AA91C25C809730017F566 /* EmailusVC.swift in Sources */,
+				435A3DCD25BB7679001EFCBF /* Maleb.swift in Sources */,
+				433FC82825DAA9BE00E8768B /* OvalView.swift in Sources */,
+				43148AD125C3994600725B1F /* MessageVC.swift in Sources */,
+				433FC80725DA99EF00E8768B /* SignInVC.swift in Sources */,
+				437C8ABE25DDA05D002A1C82 /* LocalizationSystem.swift in Sources */,
+				433FC80C25DA9A0800E8768B /* SignUpVC.swift in Sources */,
+				4347973725BCBD66004B837A /* TextFeild.swift in Sources */,
+				432F890925BB225200546D5A /* MainVC.swift in Sources */,
+				435A3DC625BB7529001EFCBF /* MalebVC.swift in Sources */,
 				432F890525BB225200546D5A /* AppDelegate.swift in Sources */,
+				430BECC125D3FA1400355F3C /* ProfileVC.swift in Sources */,
 				432F890725BB225200546D5A /* SceneDelegate.swift in Sources */,
+				43148AEA25C399F600725B1F /* MessagesVC.swift in Sources */,
+				4347972C25BCBD31004B837A /* GradientView.swift in Sources */,
+				43481F9125C2E80C00761EBA /* MyReservationsVC.swift in Sources */,
+				43148ADC25C399A300725B1F /* NotificationVC.swift in Sources */,
+				433FC86825DACAB200E8768B /* SplashVC.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -304,6 +601,7 @@
 			isa = PBXVariantGroup;
 			children = (
 				432F890B25BB225200546D5A /* Base */,
+				437C8AA925DD9B45002A1C82 /* ar */,
 			);
 			name = Main.storyboard;
 			sourceTree = "<group>";
@@ -312,8 +610,18 @@
 			isa = PBXVariantGroup;
 			children = (
 				432F891325BB225500546D5A /* Base */,
+				437C8AAD25DD9B46002A1C82 /* ar */,
 			);
 			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		437C8AB825DD9C2A002A1C82 /* Localizable.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				437C8AB725DD9C2A002A1C82 /* ar */,
+				437C8AB925DD9C51002A1C82 /* en */,
+			);
+			name = Localizable.strings;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -323,6 +631,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
@@ -384,6 +693,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
@@ -437,9 +747,11 @@
 		};
 		432F892F25BB225600546D5A /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 37BDE891D27CC109A0BFE85D /* Pods-Koraa.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = Koraa/KoraaDebug.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = ZG7MDT96L3;
 				INFOPLIST_FILE = Koraa/Info.plist;
@@ -447,7 +759,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = mac.Yasser.iOSApp..Koraa;
+				PRODUCT_BUNDLE_IDENTIFIER = mac.Yasser.iOSApp.Koraa;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -456,6 +768,7 @@
 		};
 		432F893025BB225600546D5A /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = A162D8CC93FCE6B171247B0A /* Pods-Koraa.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -466,7 +779,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = mac.Yasser.iOSApp..Koraa;
+				PRODUCT_BUNDLE_IDENTIFIER = mac.Yasser.iOSApp.Koraa;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -475,6 +788,7 @@
 		};
 		432F893225BB225600546D5A /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5F51C95FEA5E4C96A49E9D73 /* Pods-KoraaTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -497,6 +811,7 @@
 		};
 		432F893325BB225600546D5A /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1C4E42263AD029BA7292CA05 /* Pods-KoraaTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -519,6 +834,7 @@
 		};
 		432F893525BB225600546D5A /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5D20D4989B4BB2298CA84D99 /* Pods-KoraaUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -539,6 +855,7 @@
 		};
 		432F893625BB225600546D5A /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 735BA11E1157568F2782271C /* Pods-KoraaUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;

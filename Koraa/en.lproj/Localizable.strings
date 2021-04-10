@@ -1,0 +1,16 @@
+/*
+  Localizable.strings
+  Koraa
+
+  Created by Yasser AlShaFei on 2/17/21.
+  
+*/
+
+
+"button_signin" = "SignIn";
+"button_if_have_account" = "If you don't register? SignUp";
+"button_skip" = "Skip";
+
+
+"header_text" = "Current Language";
+"change_language" = "Arabic";

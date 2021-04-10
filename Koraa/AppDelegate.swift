@@ -7,16 +7,25 @@
 
 import UIKit
 import CoreData
+import Firebase
+import UserNotifications
+
+
 
 @main
-class AppDelegate: UIResponder, UIApplicationDelegate {
-
-
-
+class AppDelegate: UIResponder, UIApplicationDelegate/*, MOLHResetable*/ {
+        
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
         // Override point for customization after application launch.
+        
+        UNUserNotificationCenter.current().requestAuthorization(options: [.alert, .badge, .sound]) { (granted, error) in
+                print("granted: \(granted)")
+        }
+        
+        FirebaseApp.configure()
         return true
     }
+    
 
     // MARK: UISceneSession Lifecycle
 
@@ -25,6 +34,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         // Use this method to select a configuration to create the new scene with.
         return UISceneConfiguration(name: "Default Configuration", sessionRole: connectingSceneSession.role)
     }
+    
 
     func application(_ application: UIApplication, didDiscardSceneSessions sceneSessions: Set<UISceneSession>) {
         // Called when the user discards a scene session.
@@ -79,3 +89,12 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
 }
 
+
+
+
+
+extension String {
+    var localized: String {
+        return NSLocalizedString(self, comment: "")
+    }
+}
